@@ -1,0 +1,11 @@
+To Do (Web Only Edition)
+
+Priority 
+Login 
+Sign Up
+Landing
+    -Footer WIP
+    -Navbar WIP
+    -
+
+Other 

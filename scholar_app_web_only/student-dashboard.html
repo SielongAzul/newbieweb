@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Student Scholarship View</title>
+  </head>
+  <body>
+    <!-- Top Navbar -->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container">
+        <a class="navbar-brand" href="#">Dashboard</a>
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="collapse"
+          data-bs-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Contact</a>
+            </li>
+            <!-- Add more links or dropdowns as needed -->
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Side Nav-->
+    <div class="row">
+      <div class="col-lg-3">
+        <div
+          class="d-flex flex-column flex-shrink-0 p-3 bg-body-tertiary"
+          style="width: 280px; min-height: 100vh"
+        >
+          <a
+            href="/"
+            class="d-flex align-items-center mb-3 mb-md-0 me-md-auto link-body-emphasis text-decoration-none"
+          >
+            <svg class="bi pe-none me-2" width="40" height="32">
+              <use xlink:href="#bootstrap"></use>
+            </svg>
+            <span class="fs-4">Scholarfind Menu</span>
+          </a>
+          <hr />
+          <ul class="nav nav-pills flex-column mb-auto" style="flex-grow: 1">
+            <li class="nav-item">
+              <a href="#" class="nav-link active" aria-current="page">
+                <svg class="bi pe-none me-2" width="16" height="16">
+                  <use xlink:href="#home"></use>
+                </svg>
+                Dashboard
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link link-body-emphasis">
+                <svg class="bi pe-none me-2" width="16" height="16">
+                  <use xlink:href="#speedometer2"></use>
+                </svg>
+                Applied Scholarships
+              </a>
+            </li>
+            <li>
+              <a href="#" class="nav-link link-body-emphasis">
+                <svg class="bi pe-none me-2" width="16" height="16">
+                  <use xlink:href="#table"></use>
+                </svg>
+                Saved Scholarships
+              </a>
+            </li>
+          </ul>
+          <hr />
+          <div class="dropdown">
+            <button
+              class="btn btn-secondary dropdown-toggle"
+              type="button"
+              id="dropdownMenuButton"
+              data-bs-toggle="dropdown"
+              aria-expanded="false"
+            >
+              <img
+                src="https://github.com/mdo.png"
+                alt=""
+                width="32"
+                height="32"
+                class="rounded-circle me-2"
+              />
+              <strong>mdo</strong>
+            </button>
+            <ul class="dropdown-menu" aria-labelledby="dropdownMenuButton">
+              <li><a class="dropdown-item" href="#">New project...</a></li>
+              <li><a class="dropdown-item" href="#">Settings</a></li>
+              <li><a class="dropdown-item" href="#">Profile</a></li>
+              <li><hr class="dropdown-divider" /></li>
+              <li><a class="dropdown-item" href="#">Sign out</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+
+      <div class="col-lg-9">
+        <div class="containter">
+          <table class="table">
+            <thead>
+              <tr>
+                <th scope="col">Scholarship Applied</th>
+                <th scope="col">Date Applied</th>
+                <th scope="col">Scholarship Status</th>
+                <th scope="col">Accepted Date</th>
+                <th scope="col">Enrollment Status</th>
+                <th scope="col"></th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">Sample Scholarhip</th>
+                <td>January 17, 2024</td>
+                <td>
+                  <span
+                    class="badge bg-success-subtle text-success-emphasis rounded-pill"
+                    >Accepted</span
+                  >
+                </td>
+                <td>January 17, 2024</td>
+                <td>Enrolled</td>
+                <td><a class="btn btn-primary"> Show Details</a></td>
+              </tr>
+              <tr>
+                <th scope="row">Sample Scholarhip 2</th>
+                <td>January 17, 2024</td>
+                <td>
+                  <span
+                    class="badge bg-success-subtle text-success-emphasis rounded-pill"
+                    >Accepted</span
+                  >
+                </td>
+                <td>January 17, 2024</td>
+                <td>Not enrolled</td>
+                <td><a class="btn btn-primary"> Show Details</a></td>
+              </tr>
+              <tr>
+                <th scope="row">Sample Scholarhip 3</th>
+                <td>January 17, 2024</td>
+                <td>
+                  <span
+                    class="badge bg-danger-subtle text-danger-emphasis rounded-pill"
+                    >Rejected</span
+                  >
+                </td>
+                <td>--</td>
+                <td>--</td>
+                <td><a class="btn btn-primary"> Show Details</a></td>
+                <td
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
+  </body>
+</html>
