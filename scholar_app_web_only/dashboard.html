@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="css/bootstrap.css" />
+    <link rel="stylesheet" href="css/main.css" />
+
+    <title>Dashboard Template</title>
+
+
+  </head>
+  <body>
+<!--Navbar-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Validator Dashboard</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <ul class="navbar-nav mb-2 mb-lg-0">
+             
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                Menu
+              </a>
+              <ul class="dropdown-menu ">
+                <li><a class="dropdown-item active" href="#">Dashboard</a></li>
+                <li><a class="dropdown-item" href="#">Users</a></li>
+                <li><a class="dropdown-item" href="#">Pending Scholarships</a></li>
+                <li><a class="dropdown-item" href="#">Scholarship List</a></li>
+                <li><a class="dropdown-item" href="#">Scholarship Providers</a></li>
+                <li><a class="dropdown-item" href="#">Logs</a></li>
+              </ul>
+            </li>
+          </ul>
+          
+          <form class="d-flex ms-auto" role="search">
+            <div class="input-group ">
+              <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="button-addon2">
+              <button class="btn btn-outline-secondary" type="button" id="button-addon2"><i class="fas fa-search"></i></button>
+            </div>
+            
+          </form>
+          <ul class="navbar-nav mb-2 mb-lg-0">
+             
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                <i class="fa-regular fa-user"></i>
+              </a>
+              <ul class="dropdown-menu dropdown-menu-end">
+                <li class="dropdown-item text-center">Welcome to Validatior's View!</li>
+                <li class="dropdown-item text-center">User!</li>
+                <li><hr class="dropdown-divider"></li>
+                <li><a class="dropdown-item" href="#">Account Setting</a></li>
+                <li><a class="dropdown-item" href="#">Sign Out</a></li>
+              </ul>
+            </li>
+          </ul>
+       
+        </ul>
+        </div>
+      </div>
+    </nav>
+<!--Navbar-->
+
+<!--Tables-->
+
+<div class="container">
+  <table id="example" class="table table-striped" style="width:100%">
+  <thead>
+    <tr>
+      <th scope="col">Scholarship ID</th>
+      <th scope="col">Scholarship Name</th>
+      <th scope="col">Provided By</th>
+      <th scope="col">University/College</th>
+      <th scope="col">Scholarship Status</th>
+      <th scope="col">Date Added</th>
+      <th scope="col">Validated Date</th>
+      <th scope="col">Validated By</th>
+      <th scope="col">Action</th>
+      
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Sample Scholarship Awards</td>
+      <td>Banehallow Lycanthrope</td>
+      <td>Sample University</td>
+      <td><span class="badge bg-warning text-dark">Pending</span></td>
+      <td>Jan 27, 2023</td>
+      <td>Jan 27, 2023</td>
+      <td>NULL</td>
+      <td> <a class="btn btn-success me-2"> Validate Scholarship</a><a class="btn btn-primary"> View Details</a></td>
+    </tr>
+  </tbody>
+  <tbody>
+    <tr>
+      <th scope="row">1</th>
+      <td>Sample Scholarship Awards</td>
+      <td>Banehallow Lycanthrope</td>
+      <td>For Scholarship Provider</td>
+      <td><span class="badge bg-danger text-dark">Rejected</span></td>
+      <td>Jan 27, 2023</td>
+      <td>Jan 22, 2023</td>
+      <td>Mr. Sunshine</td>
+      <td>   <div class="btn-group" role="group" aria-label="Action buttons">
+        <a class="btn btn-primary btn-sm me-2">Update Scholarship</a>
+        <a class="btn btn-primary btn-sm">View Details</a>
+         <a class="btn btn-primary btn-sm" title="">View Details</a>
+         <a class="btn btn-primary btn-sm">View Details</a> 
+    </div> </td>
+    </tr>
+  </tbody>
+  
+</table>
+
+</div>
+<!--Tables-->
+
+    <script src="https://code.jquery.com/jquery-3.7.1.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/all.min.js"></script>
+  </body>
+</html>

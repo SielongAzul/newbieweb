@@ -1,11 +1,62 @@
 To Do (Web Only Edition)
 
-Priority 
-Login 
-Sign Up
-Landing
-    -Footer WIP
-    -Navbar WIP
-    -
+Front-End 
 
-Other 
+Dashboard Menu - User, Validators, Scholarship provider (WIP) 
+Table Menu (WIP)
+Profile Menu (Account Setting)
+Form Menu - Scholarship Provider 
+Form Menu 2 - Students when they registered (Might Change mind)
+Form Menu 3 - Students when they click apply (I wanted to to be conditional if the scholarship provider send links it will be redirected to the site 
+else make a form to submit requirements)
+Registration (First Name, Lastname, Username incase we can't customize the form, Email)  !!!!!!
+Login !!!!
+Landing Page  !!!!
+Contact Us Page 
+
+
+
+*Priority List*
+
+Student 
+View Scholarships
+Bookmark Scholarships
+Apply Scholarships
+Accepted or Declined Scholarships (User Response) I am planning to make this conditional but that is not the case for now
+Enrollment Status (User-defined) Enrolled? 
+Delete Bookmark
+
+Validators 
+Can Validate Scholarships 
+All accepted can show in scholarship List
+Able to respond reason to decline or accepted
+
+Scholarship provider 
+Add Scholarships 
+Delete Scholarships
+Show all applicants who applied
+Can respond to applicants if they are accepted or rejected
+
+Admin Can see Tables (Can do it in admin dashboard built-in)
+
+System 
+Can view profile
+Can update profile 
+Can delete profile
+
+
+Form
+Academic Achievements
+Extracurricular Activities
+
+
+Documetary Requirements 
+Certificate png jpg
+Report Card for Senior High Grade 11 and 12 (Transcript of Grades) jpg png
+ITR for parents png jpg
+Tax Exemption png jpg
+ID png jpg
+Recommendation Letter pdf
+Essays pf
+
+
